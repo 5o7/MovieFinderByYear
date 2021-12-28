@@ -18,9 +18,9 @@ youtube = build("youtube", "v3", developerKey=api_key)
 
 # Two variables--one to hold user credentials and another to hold an instance of the website
 
-creds = {"client_id": "ameCCd2j9h0QxgP4IGZbTg",
-         "client_secret": "vzg0WWUkKUAbv_gdRKNpir65Nr_eOQ",
-         "password": "KillDozer2001!",
+creds = {"client_id": "x",
+         "client_secret": "x",
+         "password": "x",
          "user_agent": "Find movies",
          "username": "5o7bot"}
 
