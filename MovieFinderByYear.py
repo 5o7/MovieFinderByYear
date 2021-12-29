@@ -166,7 +166,7 @@ while True:
 
                         vid_response["items"][i]["contentDetails"]
 
-                        # Acquire the uration from the content details
+                        # Acquire the duration from the content details
 
                         duration = vid_response["items"][i]["contentDetails"]["duration"]
                         definition = vid_response["items"][i]["contentDetails"]["definition"]
