@@ -190,8 +190,6 @@ while True:
                         # Find the title of the YouTube search result
 
                         yt_link = "https://www.youtube.com/watch?v=" + vid_ids[i]
-                        source2 = requests.get(yt_link).text
-                        soup = BeautifulSoup(source, 'lxml')
                         source = requests.get(yt_link).text
                         soup2 = BeautifulSoup(source, 'lxml')
                         yt_info = soup2.find("div", class_="watch-main-col")
